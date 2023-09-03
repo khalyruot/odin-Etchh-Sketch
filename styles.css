@@ -1,0 +1,10 @@
+
+.column{
+    display: flex;
+    flex-direction: row;
+}
+.row{
+    border: dashed;
+    height:  30px;
+    width: 30px;
+}
