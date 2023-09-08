@@ -1,10 +1,6 @@
 
-.column{
+#container{
     display: flex;
     flex-direction: row;
-}
-.row{
-    border: dashed;
-    height:  30px;
-    width: 30px;
+    background-color: rgb(197, 197, 238);
 }
