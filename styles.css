@@ -4,11 +4,24 @@
     flex-direction: column;
     background-color: rgb(197, 197, 238);
     justify-content: space-around;
+    border: dashed;
+    border-color:rgb(247, 248, 236);
 }
 
 .content{
     display: flex;
     justify-content: space-around;
     flex-direction:  row;
+
   
+}
+
+.sub_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed;
+    border-color:rgb(247, 248, 236);
+    height: 30px;
+    width: 30px;
 }

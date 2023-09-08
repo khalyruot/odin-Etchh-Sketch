@@ -6,7 +6,6 @@ for(i = 0; i < 16; i++){
 
     var content = document.createElement('div');
     content.classList.add('content');
-    content.textContent = "a";
     container.appendChild(content);
 
     for(j = 0; j < 16; j++){
