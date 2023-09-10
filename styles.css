@@ -5,11 +5,12 @@
     border-color:rgb(247, 248, 236);
     
 }
-h1{
+.top_part{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .content{
