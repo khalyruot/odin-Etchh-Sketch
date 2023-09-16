@@ -10,14 +10,25 @@
 <body>
   <div class="top_part">
     <h1>Etch Sketch</h1>
-    <div class="slidecontainer">
-      <input type="range" min="1" max="100" value="10" class="slider" id="myRange">
-      <p>Value: <span id="demo"></span></p>
-      <input id="reset" type="button" value="Reset">
+    <div class="size_button">
+
+      <div>
+          <button id="fourBYfour">4 x 4</button>
+          
+      </div>
+
+      <div>
+          <button id="eightBYeight">8 x 8</button>
+      </div>
+
+      <div>
+          <button id="sixteenBYsixteen">16 x 16</button>
+      </div>  
+
     </div>
-  </div>
-  
-  
-  <div id="container"></div>
+
+    <div class="grid_area">
+      <div id="container"></div>
+    </div>
 </body>
 </html>
