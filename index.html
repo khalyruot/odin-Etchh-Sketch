@@ -10,25 +10,31 @@
 <body>
   <div class="top_part">
     <h1>Etch Sketch</h1>
-    <div class="size_button">
+    <div>
+      <div class="size_button">
 
-      <div>
-          <button id="fourBYfour">4 x 4</button>
-          
+        <div>
+            <button id="fourBYfour" onclick="handleClick('a')">4 x 4</button>
+            
+        </div>
+  
+        <div>
+            <button id="eightBYeight" onclick="handleClick('b')">8 x 8</button>
+        </div>
+  
+        <div>
+            <button id="sixteenBYsixteen" onclick="handleClick('c')">16 x 16</button>
+        </div>  
+  
       </div>
-
-      <div>
-          <button id="eightBYeight">8 x 8</button>
-      </div>
-
-      <div>
-          <button id="sixteenBYsixteen">16 x 16</button>
-      </div>  
+  
+      <div class="size_button">
+        <button id="reset" onclick="handleClick('reset')">Reset</button>
+      </div> 
 
     </div>
+    
 
-    <div class="grid_area">
-      <div id="container"></div>
-    </div>
+    <div class="grid_area"></div>
 </body>
 </html>
