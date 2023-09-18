@@ -96,10 +96,8 @@ function creatGrid16x16(){
 }
 
 function handleClick(buttonId){
-    if(buttonId === 'reset'){
-        location.reload();
-    }
-    else if(buttonId ==='a'){  
+   
+    if(buttonId ==='a'){  
         creatGrid4x4();
         console.log('a');
     }
@@ -110,6 +108,9 @@ function handleClick(buttonId){
     else if(buttonId ==='c'){
         creatGrid16x16();
         console.log('c');
+    }
+    if(buttonId === 'reset'){
+        location.reload();
     }
    
     
